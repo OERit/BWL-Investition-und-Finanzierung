@@ -27,7 +27,6 @@ import:   // Lia-Template
 -->
 
 # Investitionsrechnung und Finanzierung
-###### tags: `InFi`
 
 ## OER mit Markdown > Regeln
 
