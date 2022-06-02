@@ -28,8 +28,6 @@ import:   // Lia-Template
 
 # Investitionsrechnung und Finanzierung
 ###### tags: `InFi`
-    
-:::spoiler Regeln für die Arbeit an OER
 
 ## OER mit Markdown > Regeln
 
@@ -64,8 +62,6 @@ import:   // Lia-Template
 * Elemente von HackMd/Hedgedoc nicht nutzen
 * Besser HTML pur nutzen und Inhalte eher einbinden
 
-
-:::
 # Investitionsrechnung
 
 ## Grundlagen Investition
