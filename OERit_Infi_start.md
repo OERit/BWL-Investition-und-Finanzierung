@@ -20,10 +20,10 @@ icon:     // Icon svg einfügen
 
 logo:     // Logo png einfügen
 
-link:     //css
+link:     https://cdn.jsdelivr.net/gh/twillo-lehre-teilen/BestPractice_Sortieralgorithmen/custom.css
 
-import:   // Lia-Template
-
+import:   https://github.com/LiaTemplates/Pyodide/blob/0.1.4/README.md
+          https://github.com/LiaScript/CodeRunner/blob/master/README.md
 -->
 
 # Investitionsrechnung und Finanzierung
