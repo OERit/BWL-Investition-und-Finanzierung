@@ -35,13 +35,21 @@ Einstieg Infi als OER
 **Erlaubte Elemente im Dokument**
 
 - Überschriften h1 bis h4 
+
   - '#' bis '####' 
+
 - Listen
+
   - 1 Stern \* (danach Leerzeichen!)
+
 - Formatierung nur **fett**
+
   - 2 Sterne \*\*
+
 - Trennlinie
+
   - 3 Sterne \*\*\* (allein in Zeile)
+
 - Links mit [Text] und (Link)
 - Bilder mit ![Text] und (Link)
 - Videos, H5P, ... nur mit [iframe einbinden](https://hackmd.io/s/features?both=1#Embed-a-Note)
