@@ -33,17 +33,18 @@ Einstieg Infi als OER
 ## OER mit Markdown Regeln
 
 **Erlaubte Elemente im Dokument**
-* Überschriften h1 bis h4 
-    * '#' bis '####' 
-* Listen 
-    * 1 Stern * (danach Leerzeichen!)
-* Formatierung nur **fett**
-    * 2 Sterne **
-* Trennlinie
-    * 3 Sterne *** (allein in Zeile)
-* Links mit [Text] und (Link)
-* Bilder mit ![Text] und (Link)
-* Videos, H5P, ... nur mit [iframe einbinden](https://hackmd.io/s/features?both=1#Embed-a-Note)
+
+- Überschriften h1 bis h4 
+    - '#' bis '####' 
+- Listen 
+    - 1 Stern * (danach Leerzeichen!)
+- Formatierung nur **fett**
+    - 2 Sterne **
+- Trennlinie
+    - 3 Sterne *** (allein in Zeile)
+- Links mit [Text] und (Link)
+- Bilder mit ![Text] und (Link)
+- Videos, H5P, ... nur mit [iframe einbinden](https://hackmd.io/s/features?both=1#Embed-a-Note)
 
 ***
 
@@ -104,11 +105,11 @@ $$
 $$
 
 Parameter
-* $t$ Zeitindex
-* $T$ letzter Zeitpunkt
-* $e_{ t }$ Einzahlung für Zeitpunkt $t$
-* $a_{ t }$ Auszahlung für Zeitpunkt $t$
-* $q^{ t }$ Abzinsungsfaktor für Zeitpunkt $t$
+- $t$ Zeitindex
+- $T$ letzter Zeitpunkt
+- $e_{ t }$ Einzahlung für Zeitpunkt $t$
+- $a_{ t }$ Auszahlung für Zeitpunkt $t$
+- $q^{ t }$ Abzinsungsfaktor für Zeitpunkt $t$
 
 
 Quelle:[^1] 
