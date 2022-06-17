@@ -28,6 +28,8 @@ import:   https://github.com/LiaTemplates/Pyodide/blob/0.1.4/README.md
 
 # Investitionsrechnung und Finanzierung
 
+Einstieg Infi als OER
+
 ## OER mit Markdown > Regeln
 
 **Erlaubte Elemente im Dokument**
