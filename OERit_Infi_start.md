@@ -30,7 +30,7 @@ import:   https://github.com/LiaTemplates/Pyodide/blob/0.1.4/README.md
 
 Einstieg Infi als OER
 
-## OER mit Markdown > Regeln
+## OER mit Markdown Regeln
 
 **Erlaubte Elemente im Dokument**
 * Überschriften h1 bis h4 
