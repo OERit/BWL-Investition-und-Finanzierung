@@ -65,17 +65,27 @@ Einstieg Infi als OER
 
 ## Investitionsrechnung
 
+test
+
 ### Grundlagen Investition
 
 ![test](https://de.wikipedia.org/wiki/Investitionsrechnung#/media/Datei:Abzinsung.svg)
 
 ### statische Investitionsverfahren
 
+ba 
+
 #### Kostenvergleichsrechnung
+
+af
 
 #### Gewinnvergleichsrechnung
 
+dd
+
 #### Amortisationsrechnung
+
+ff
 
 ### dynamische Verfahren
 
@@ -106,26 +116,48 @@ Quelle:[^1]
 
 #### dynamische Amortistationsrechnung
 
+ll
+
 #### Vollständiger Finanzplan (VoFi)
+
+kk
 
 ## Nutzungsdauer- und Ersatzzeitpunktentscheidungen
 
+jj
 
 ## Entscheidungsverfahren
 
+ii
+
 ### Nutzwertanalyse
+
+hh
 
 ### Entscheidungsbaumverfahren
 
+gg
+
 ### Sensitivitätsanalyse
 
+ff
 
 ## Finanzierung
 
+ee
+
 ### Innenfinanzierung
+
+dd
 
 ### Außenfinanzierung
 
+cc
+
 ### Selbstfinanzierung
 
+bb
+
 ### Fremdfinanzierung
+
+aa
