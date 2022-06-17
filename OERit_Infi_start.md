@@ -35,32 +35,33 @@ Einstieg Infi als OER
 **Erlaubte Elemente im Dokument**
 
 - Überschriften h1 bis h4 
-    - '#' bis '####' 
-- Listen 
-    - 1 Stern * (danach Leerzeichen!)
+  - '#' bis '####' 
+- Listen
+  - 1 Stern \* (danach Leerzeichen!)
 - Formatierung nur **fett**
-    - 2 Sterne **
+  - 2 Sterne \*\*
 - Trennlinie
-    - 3 Sterne *** (allein in Zeile)
+  - 3 Sterne \*\*\* (allein in Zeile)
 - Links mit [Text] und (Link)
 - Bilder mit ![Text] und (Link)
 - Videos, H5P, ... nur mit [iframe einbinden](https://hackmd.io/s/features?both=1#Embed-a-Note)
 
-***
-
 **Formeln**
+
 * Formeln nur mit Latex einfügen
-    * $ für Formeln im Text 
-    * $$ für größere Formeln (Beispiel siehe [a Kapitalwert](## Kapitalwert))
-    * [Formeleditor](https://www.zahlen-kern.de/editor/) - ggf. Anpassungen notwendig 
-    * HackMd nutzt die JS-Bibliothek [MathJax](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
-    * Liascript nutzt die JS-Bibliothek [KaTex](https://katex.org/docs/supported.html)
+  * $ für Formeln im Text 
+  * $$ für größere Formeln (Beispiel siehe [a Kapitalwert](## Kapitalwert))
+  * [Formeleditor](https://www.zahlen-kern.de/editor/) - ggf. Anpassungen notwendig 
+  * HackMd nutzt die JS-Bibliothek [MathJax](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+  * Liascript nutzt die JS-Bibliothek [KaTex](https://katex.org/docs/supported.html)
 
 **Tabellen**
+
 * Tabellen möglichst nicht mit Markdown erstellen
 * ggf. [CSV-Formatierung ](https://hackmd.io/s/features#Render-CSV-as-table) nutzen
 
 **Kompatibilität zu LiaScript**
+
 * Elemente von HackMd/Hedgedoc nicht nutzen
 * Besser HTML pur nutzen und Inhalte eher einbinden
 
