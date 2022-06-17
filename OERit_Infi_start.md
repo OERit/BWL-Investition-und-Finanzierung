@@ -31,7 +31,7 @@ import:   https://github.com/LiaTemplates/Pyodide/blob/0.1.4/README.md
 ## OER mit Markdown > Regeln
 
 **Erlaubte Elemente im Dokument**
-* Überschriften h1 bis h3 
+* Überschriften h1 bis h4 
     * '#' bis '####' 
 * Listen 
     * 1 Stern * (danach Leerzeichen!)
@@ -61,25 +61,25 @@ import:   https://github.com/LiaTemplates/Pyodide/blob/0.1.4/README.md
 * Elemente von HackMd/Hedgedoc nicht nutzen
 * Besser HTML pur nutzen und Inhalte eher einbinden
 
-# Investitionsrechnung
+## Investitionsrechnung
 
-## Grundlagen Investition
+### Grundlagen Investition
 
 ![test](https://de.wikipedia.org/wiki/Investitionsrechnung#/media/Datei:Abzinsung.svg)
 
-## statische Investitionsverfahren
+### statische Investitionsverfahren
 
-### Kostenvergleichsrechnung
+#### Kostenvergleichsrechnung
 
-### Gewinnvergleichsrechnung
+#### Gewinnvergleichsrechnung
 
-### Amortisationsrechnung
+#### Amortisationsrechnung
 
-## dynamische Verfahren
+### dynamische Verfahren
 
 Es werden mehrere Perioden berücksichtigt
 
-### Kapitalwertmethode
+#### Kapitalwertmethode
 
 einfache Formel auf dem Weg zum Kapitalwert:
 $$ 
@@ -102,28 +102,28 @@ Parameter
 Quelle:[^1] 
 [^1]: Götze, U.: Investitionsrechnung, S. 79  Auflage 7
 
-### dynamische Amortistationsrechnung
+#### dynamische Amortistationsrechnung
 
-### Vollständiger Finanzplan (VoFi)
+#### Vollständiger Finanzplan (VoFi)
 
-# Nutzungsdauer- und Ersatzzeitpunktentscheidungen
-
-
-# Entscheidungsverfahren
-
-## Nutzwertanalyse
-
-## Entscheidungsbaumverfahren
-
-## Sensitivitätsanalyse
+## Nutzungsdauer- und Ersatzzeitpunktentscheidungen
 
 
-# Finanzierung
+## Entscheidungsverfahren
 
-## Innenfinanzierung
+### Nutzwertanalyse
 
-## Außenfinanzierung
+### Entscheidungsbaumverfahren
 
-## Selbstfinanzierung
+### Sensitivitätsanalyse
 
-## Fremdfinanzierung
+
+## Finanzierung
+
+### Innenfinanzierung
+
+### Außenfinanzierung
+
+### Selbstfinanzierung
+
+### Fremdfinanzierung
