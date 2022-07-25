@@ -1,6 +1,6 @@
 <!--
-author:   Rico Meiner, ...
 
+author:   Rico Meiner, ...
 email:    rico.meiner@jade-hs.de
 
 repository: ...
@@ -28,11 +28,129 @@ import:   https://github.com/LiaTemplates/Pyodide/blob/0.1.4/README.md
 
 # Investitionsrechnung und Finanzierung
 
+###### tags: `InFi`
+
 Einstieg Infi als OER
 
-## OER mit Markdown Regeln
+## Investitionsrechnung
 
-**Erlaubte Elemente im Dokument**
+### Grundlagen Investition
+
+* Begriffsdefinition
+* Vorteilhaftigkeit
+    * absolut
+    * relativ
+* Investitionsziele
+    * Minimalprinzip
+    * Maximalprinzip
+* Investitionsarten
+    * Neuinvestition
+    * Ersatzinvestition
+    * ...
+* Sicherheit
+* Unsicherheit
+* Endwert
+* Barwert
+* Entscheidungen
+    * Auswahlentscheidung
+    * Ersatzentscheidung
+* eine Zielgröße -> statische/dynamische Verfahren
+* mehrere Zielgrößen -> Entscheidungsverfahren
+
+### Statische Investitionsverfahren
+
+* Kostenvergleichsrechnung
+* Gewinnvergleichsrechnung
+* Rentabilitätsvergleichsrechnung
+* Statische Amortisationsrechnung
+
+### Dynamische Verfahren
+
+* Kapitalwertmethode
+* Annuitätenmethode
+* Methode des Internen Zinssatzes
+* Dynamische Amortistationsrechnung
+* Vermögensendwertmethode
+* Vollständiger Finanzplan (VoFi)
+
+### Entscheidungsverfahren
+
+Unter Sicherheit
+* Nutzwertanalyse
+* Analytischer Hierarchie Prozess
+
+Unter Unsicherheit
+* Sensitivitätsanalyse
+* Risikoanalyse
+* Entscheidungsbaumverfahren
+
+## Nutzungsdauer und Ersatzzeitpunkt bestimmen
+
+* Kapitalwertmodell als Grundlage
+* optimale Nutzungsdauer
+* optimale Nutzungsdauer mit einem Nachfolgeobjekt
+* optimale Nutzungsdauer mit vielen Nachfolgeobjekt
+
+# Finanzierung
+* Begriffsdefinition
+* Liquidität
+* Maßnahmen der Finanzierung
+    * Kapitalbeschaffung
+    * Kapitalumschichtung
+    * Kapitalsicherung
+    * Kapitalreduzierung
+* Finanzmärkte
+* Leverage-Effekt 
+*  Finanzierungsarten
+    *  Innenfinanzierung
+    *  Außenfinanzierung
+    *  Selbstfinanzierung
+    *  Fremdfinanzierung
+![](https://i.imgur.com/5NEw3Oh.png)
+vlt. so wie im Bild differenzieren (Becker, Peppmeier: Investition und Finanzierung S. 153)
+## Modelle Investition und Finanzierung
+
+* Modell von Dean
+
+### Programmentscheidungen bei Sicherheit
+
+* Optimales Investitionsprogramm
+* Simultane Investitions- und Finanzierungsplanung
+* Simultane Investitions- und Produktionsplanung
+
+### Programmentscheidungen bei Unsicherheit
+
+* Portfolio-Selection
+* Flexible Planung
+
+---
+
+# Formeln
+
+einfache Formel auf dem Weg zum Kapitalwert:
+> $$ 
+> \sum _{ t=0 } ^{ T } { 
+>   \left( 
+>     e_{ t } - a_{ t } 
+>   \right) 
+>   \cdot q^{ t } 
+> } 
+> $$
+>
+> Parameter
+> - $t$ >Zeitindex
+> - $T$ >letzter Zeitpunkt
+> - $e_{> t }$ Einzahlung für Zeitpunkt $t$
+> - $a_{> t }$ Auszahlung für Zeitpunkt $t$
+> - $q^{> t }$ Abzinsungsfaktor für Zeitpunkt $t$
+ 
+
+Quelle:[^1] 
+[^1]: Götze, U.: Investitionsrechnung, S. 79  Auflage 7
+
+
+# Regeln
+## OER mit Markdown - Empfehlungen
 
 - Überschriften h1 bis h4 
 
@@ -73,101 +191,19 @@ Einstieg Infi als OER
 * Elemente von HackMd/Hedgedoc nicht nutzen
 * Besser HTML pur nutzen und Inhalte eher einbinden
 
-## Investitionsrechnung
+# Links zu Projektressourcen
+## Github
+Für die allgemeine Projektdokumentation und Projektarchivierung wird Github benutzt.
+Repository: https://github.com/OERit/InFi
 
-test
+Projektplan: https://github.com/orgs/OERit/projects/1
 
-### Grundlagen Investition
+## Hackmd
+In Hackmd werden die schriftlichen Inhalte für das Projekt erstellt.
+https://hackmd.io/team/JadeOER-IT?nav=overview
 
-![test](https://de.wikipedia.org/wiki/Investitionsrechnung#/media/Datei:Abzinsung.svg)
-
-### statische Investitionsverfahren
-
-ba 
-
-#### Kostenvergleichsrechnung
-
-af
-
-#### Gewinnvergleichsrechnung
-
-dd
-
-#### Amortisationsrechnung
-
-ff
-
-### dynamische Verfahren
-
-Es werden mehrere Perioden berücksichtigt
-
-#### Kapitalwertmethode
-
-einfache Formel auf dem Weg zum Kapitalwert:
-$$ 
-\sum _{ t=0 } ^{ T } { 
-    \left( 
-        e_{ t } - a_{ t } 
-    \right) 
-    \cdot q^{ t } 
-} 
-$$
-
-Parameter
-- $t$ Zeitindex
-- $T$ letzter Zeitpunkt
-- $e_{ t }$ Einzahlung für Zeitpunkt $t$
-- $a_{ t }$ Auszahlung für Zeitpunkt $t$
-- $q^{ t }$ Abzinsungsfaktor für Zeitpunkt $t$
+## Nextcloud
+Alle Einzelelemente (Bilder, Excel, H5P, ...)
+https://ccs.jade-hs.de/f/235373619
 
 
-Quelle:[^1] 
-[^1]: Götze, U.: Investitionsrechnung, S. 79  Auflage 7
-
-#### dynamische Amortistationsrechnung
-
-ll
-
-#### Vollständiger Finanzplan (VoFi)
-
-kk
-
-## Nutzungsdauer- und Ersatzzeitpunktentscheidungen
-
-jj
-
-## Entscheidungsverfahren
-
-ii
-
-### Nutzwertanalyse
-
-hh
-
-### Entscheidungsbaumverfahren
-
-gg
-
-### Sensitivitätsanalyse
-
-ff
-
-## Finanzierung
-
-ee
-
-### Innenfinanzierung
-
-dd
-
-### Außenfinanzierung
-
-cc
-
-### Selbstfinanzierung
-
-bb
-
-### Fremdfinanzierung
-
-aa
