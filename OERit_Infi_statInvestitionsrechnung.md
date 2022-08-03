@@ -18,7 +18,7 @@ Innerhalb der statischen Investitionsrechnung erfolgt eine Differenzierung von V
 | Kostenvergleichsrechnung | Ermittlung der durchschnittlichen Kosten pro Jahr | Minimierung der Kosten |
 | Gewinnvergleichsrechnung | Ermittlung des durchschnittlichen Gewinns pro Jahr | Maximierung des Gewinns |
 | Rentabilitätsrechnung | Ermittlung der durchschnittlichen Rentabilität pro Jahr | Maximierung der Rentabilität|
-| Armortisationsrechnung | Ermittlung der durchschnittlichen Armortisationszeit | Minimierung der Armortisationszeit |
+| Amortisationsrechnung | Ermittlung der durchschnittlichen Amortisationszeit | Minimierung der Amortisationszeit |
 
 
 ## Kostenvergleichsrechnung
@@ -55,17 +55,10 @@ Es wird zwischen **variablen** und **fixen Kosten** unterschieden:
 
 
 ### Einfache Übung: Konstenfunktion aufstellen
-#### Schritt 1
-<iframe src="https://h5p.org/h5p/embed/1282403" width="800" height="1050" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Kostenvergleichsrechnung (einfaches Beispiel): Schritt 1"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
-
-#### Schritt 2
-<iframe src="https://h5p.org/h5p/embed/1282406" width="800" height="750" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Kostenvergleichsrechnung (einfaches Beispiel): Schritt 2"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
-
-#### Schritt 3
-<iframe src="https://h5p.org/h5p/embed/1282410" width="800" height="609" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Kostenvergleichsrechnung (einfaches Beispiel)"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+<iframe src="https://h5p.org/h5p/embed/1286988" width="800" height="1740" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Kostenvergleichsrechnung (komplettes einfaches Beispiel)"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 ### Komplexe Übung: Kostenfunktion aufstellen
-<iframe src="https://h5p.org/h5p/embed/1282417" width="800" height="1420" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Kostenvergleichsrechung (komplexes Beispiel)"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+<iframe src="https://h5p.org/h5p/embed/1286991" width="800" height="1480" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Kostenvergleichsrechung (komplexes Beispiel V1)"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 ### Ermittlung der kritischen Menge
 Als kritische Menge bezeichnet man den Punkt, an dem die Kosten zweier Alternativen gleich hoch sind. Zur Berechnung der kritischen Menge werden die Kostenfunktionen beider Alternativen gleichgesetzt.
@@ -97,9 +90,28 @@ Ab einer Produktionsmenge von mehr als 10.000 Einheiten ist der Kauf und Einsatz
 
 ## Gewinnvergleichsrechnung
 
-...
+### Grundlagen
+In der Gewinnvergleichsrechnung wird der durchschnittliche Gewinn pro Jahr errechnet. Ziel ist dabei die Maximierung des Gewinns. Der Gewinn ist definiert als $$ Gewinn = Erlös - Kosten. $$
+
+Die Gewinnvergleichsrechnung basiert auf zwei Vorteilhaftigkeitsregeln:
+- Ein Investitionsobjekt ist **absolut** vorteilhaft, falls sein Gewinn größer als Null ist.
+- Ein Investitionsobjekt ist **relativ** vorteilhaft, falls sein Gewinn größer ist als der Gewinn jedes anderen zur Wahl stehenden Objektes.
+
+### Übungen
 
 ## Rentabilitätsvergleichsrechnung
+### Grundlagen
+In der Rentabilitätsvergleichsrechnung wird die durchschnittliche Rentabilität pro Jahr errechnet. Ziel ist dabei die Maximierung der Rentabilität. Die Rentabilität ist definiert als $$ Rentabilität = \frac{ durchschnittlicher \ Gewinn }{ durchschnittliche \ Kapitalbindung. } $$
+\
+Weiterhin wird zwischen **Bruttorentabilität** und **Nettorentabilität** unterschieden.
+$$Bruttorentabilität = \frac{ Gewinn \ vor \ Abzug \ von \ kalk. \ Zinsen}{ durchschnittliche \ Kapitalbindung }$$
+$$Nettorentabilität = \frac{ Gewinn \ nach \ Abzug \ von \ kalk. \ Zinsen}{ durchschnittliche \ Kapitalbindung }$$
+\
+Die Rentabilitätsvergleichsrechnung basiert auf zwei Vorteilhaftigkeitsregeln:
+- Ein Investitionsobjekt ist **absolut** vorteilhaft, falls seine Rentabilität höher ist als ein vorzugebender Grenzwert.
+- Ein Investitionsobjekt ist **relativ** vorteilhaft, falls seine Rentabilität höher ist als die Rentabilität jedes anderen zur Wahl stehenden Objektes.
+
+### Übungen
 
 ## Statische Amortisationsrechnung
 
@@ -116,3 +128,6 @@ $$ Amortisationszeit = \frac {eingesetztes \ Kapital }{durchschnittliche \ Rück
 Die statische Armortisationsrechnung basiert auf zwei Vorteilhaftigkeitsregeln:
 - Ein Investitionsobjekt ist **absolut vorteilhaft**, falls seine Amortisationszeit geringer ist als ein vorzugebender Grenzwert
 - Ein Investitionsobjekt ist **relativ vorteilhaft**, falls seine Amortisationszeit geringer ist als die jedes anderen zur Wahl stehenden Objektes.
+
+### Übung
+<iframe src="https://h5p.org/h5p/embed/1285855" width="800" height="670" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Statische Amortisationsrechnung"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
