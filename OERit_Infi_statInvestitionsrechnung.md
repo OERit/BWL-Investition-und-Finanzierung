@@ -1,8 +1,6 @@
 # Statische Investitionsrechnung
 ###### tags: `InFi`
 
-[toc]
-
 ## Grundlagen
 
 In der statischen Investitionsrechnung wird immer nur **ein Zeitabschnitt** berücksichtigt. Dazu wird entweder eine besonders **repräsentative Periode** oder eine **hypothetische Durchschnittsperiode** ausgewählt.
@@ -105,15 +103,12 @@ In der Rentabilitätsvergleichsrechnung wird die durchschnittliche Rentabilität
 
 $$ Rentabilität = \frac{ durchschnittlicher \ Gewinn }{ durchschnittliche \ Kapitalbindung. } $$
 
-\
 
 Weiterhin wird zwischen **Bruttorentabilität** und **Nettorentabilität** unterschieden.
 
 $$Bruttorentabilität = \frac{ Gewinn \ vor \ Abzug \ von \ kalk. \ Zinsen}{ durchschnittliche \ Kapitalbindung }$$
 
 $$Nettorentabilität = \frac{ Gewinn \ nach \ Abzug \ von \ kalk. \ Zinsen}{ durchschnittliche \ Kapitalbindung }$$
-
-\
 
 Die Rentabilitätsvergleichsrechnung basiert auf zwei Vorteilhaftigkeitsregeln:
 - Ein Investitionsobjekt ist **absolut** vorteilhaft, falls seine Rentabilität höher ist als ein vorzugebender Grenzwert.
