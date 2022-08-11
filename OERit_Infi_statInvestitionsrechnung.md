@@ -101,12 +101,20 @@ Die Gewinnvergleichsrechnung basiert auf zwei Vorteilhaftigkeitsregeln:
 
 ## Rentabilitätsvergleichsrechnung
 ### Grundlagen
-In der Rentabilitätsvergleichsrechnung wird die durchschnittliche Rentabilität pro Jahr errechnet. Ziel ist dabei die Maximierung der Rentabilität. Die Rentabilität ist definiert als $$ Rentabilität = \frac{ durchschnittlicher \ Gewinn }{ durchschnittliche \ Kapitalbindung. } $$
+In der Rentabilitätsvergleichsrechnung wird die durchschnittliche Rentabilität pro Jahr errechnet. Ziel ist dabei die Maximierung der Rentabilität. Die Rentabilität ist definiert als 
+
+$$ Rentabilität = \frac{ durchschnittlicher \ Gewinn }{ durchschnittliche \ Kapitalbindung. } $$
+
 \
+
 Weiterhin wird zwischen **Bruttorentabilität** und **Nettorentabilität** unterschieden.
+
 $$Bruttorentabilität = \frac{ Gewinn \ vor \ Abzug \ von \ kalk. \ Zinsen}{ durchschnittliche \ Kapitalbindung }$$
+
 $$Nettorentabilität = \frac{ Gewinn \ nach \ Abzug \ von \ kalk. \ Zinsen}{ durchschnittliche \ Kapitalbindung }$$
+
 \
+
 Die Rentabilitätsvergleichsrechnung basiert auf zwei Vorteilhaftigkeitsregeln:
 - Ein Investitionsobjekt ist **absolut** vorteilhaft, falls seine Rentabilität höher ist als ein vorzugebender Grenzwert.
 - Ein Investitionsobjekt ist **relativ** vorteilhaft, falls seine Rentabilität höher ist als die Rentabilität jedes anderen zur Wahl stehenden Objektes.
@@ -119,6 +127,7 @@ Die Rentabilitätsvergleichsrechnung basiert auf zwei Vorteilhaftigkeitsregeln:
 Der **Zeitraum**, in dem das **eingesetzte Kapital** aus den Rückflüssen oder Einzahlungsüberschüssen des Objekts **wiedergewonnen** wird, wird als Armortisationszeit bezeichnet.
 In der statischen Amortisationsrechnung wird dabei mit **Durchschnittswerten** gerechnet.
 Man betrachtet dabei die durchschnittlichen Rückflüsse:
+
 $$ Durchschnittliche \ Rückflüsse = durchschnittlicher \ Gewinn + Abschreibungen $$
 
 Mit Hilfe der durchschnittlichen Rückflüsse lässt sich dann die Armortisationszeit berechnen.
