@@ -1,2 +1,2 @@
 
-![Ausgabe](main/img/01_01_Grundlagen statische Verfahren/01_01_Ausgabe.svg "Ausgabe")
+![Ausgabe](./img/01_01_Grundlagen_statische_Verfahren/01_01_Ausgabe.svg "Ausgabe")
