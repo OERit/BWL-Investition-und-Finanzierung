@@ -27,6 +27,18 @@ Investitionen können nach Objekt, Anlass oder Investitionsbereich unterschieden
 
 ![Investitionsarten](https://raw.githubusercontent.com/OERit/BWL-Investition-und-Finanzierung/main/img/01_01_Grundlagen_statische_Verfahren/01_01_02_Investitionsarten_nach_Objekten.svg)
 
+```plantuml
+@startmindmap
+* Investitionen
+** Realinvestitionen
+*** materielle güterwirtschaftliche Investitionen
+*** materielle Potentialinvestitionen
+** Finanzinvestitionen
+*** spekulative Investitionen
+*** anlagenorientierte Investitionen
+@endmindmap
+```
+
 Anlass
 
 * Errichtungsinvestitionen
