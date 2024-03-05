@@ -1,0 +1,42 @@
+name: markdown to pdf with pandoc
+
+on:
+  [workflow_dispatch]
+
+jobs:
+  convert_to_pdf:
+    runs-on: ubuntu-latest
+    container:
+      image: docker://pandoc/latex:2.9
+      options: --entrypoint=sh
+    permissions:
+      contents: write
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: create file list
+      id: files_list
+      run: |
+        mkdir output  # create output dir
+        for i in *.md; do pandoc  -f markdown -t pdf --file-scope -o output/$i.pdf $i; done
+    - name: Get current date
+      id: date
+      run: echo "date=$(date +'%Y_%m_%d_%H_%M')" >> "$GITHUB_OUTPUT"
+
+    - name: Create tag
+      uses: actions/github-script@v5
+      with:
+        script: |
+            github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'refs/tags/${{steps.date.outputs.date}}',
+              sha: context.sha
+            })
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: ${{steps.date.outputs.date}}
+        files: |
+          output/*
